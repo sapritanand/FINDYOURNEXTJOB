@@ -1,0 +1,15 @@
+{
+  "buildCommand": "prisma generate && next build",
+  "framework": "nextjs",
+  "functions": {
+    "app/api/scrape-jobs/route.ts": {
+      "maxDuration": 60
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/scrape-jobs",
+      "schedule": "0 */6 * * *"
+    }
+  ]
+}
