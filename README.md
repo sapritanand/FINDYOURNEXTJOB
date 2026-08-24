@@ -6,7 +6,7 @@ A production-ready platform that **scrapes remote AI/ML jobs**, **parses resumes
 
 ---
 
-## ✨ Features
+## ✨ Features & Pros : 
 
 ### 🔍 **Smart Job Discovery**
 - Multi-source job scraping: RemoteOK, WeWorkRemotely, Rematch
